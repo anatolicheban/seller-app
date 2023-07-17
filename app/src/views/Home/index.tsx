@@ -1,5 +1,14 @@
+import Dashboard from "../Dashboard";
+
 const Home = () => {
-  return <div>Home</div>;
+  const page = "Dashboard";
+
+  switch (page) {
+    case "Dashboard":
+      return <Dashboard />;
+    default:
+      return null;
+  }
 };
 
 export default Home;

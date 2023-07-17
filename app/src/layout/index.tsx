@@ -1,5 +1,4 @@
 import { Outlet } from "react-router";
-import Footer from "./Footer";
 import Header from "./Header";
 import Sidebar from "./Sidebar";
 import "./index.scss";
@@ -14,7 +13,6 @@ const Layout = () => {
           <Outlet />
         </div>
       </main>
-      <Footer />
     </>
   );
 };

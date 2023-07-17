@@ -2,6 +2,7 @@ import { Suspense, lazy } from "react";
 import { Route, Routes } from "react-router";
 import AuthGuard from "./guards/AuthGuard";
 import Layout from "../layout";
+import { ThemeProvider, createTheme } from "@mui/material";
 
 const Home = lazy(() => import("../views/Home"));
 
