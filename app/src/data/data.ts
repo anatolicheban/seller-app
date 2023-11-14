@@ -1,4 +1,4 @@
-import { SidebarLink } from "../models/models";
+ import { SidebarLink } from "../models/models";
 
 export const sidebarLinks: SidebarLink[] = [
   {

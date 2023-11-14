@@ -1,0 +1,22 @@
+.notfound-page {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .notfound-page-content {
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    h2 {
+      font-size: 32px;
+      font-weight: 600;
+    }
+    p {
+      font-size: 18px;
+      font-weight: 200;
+    }
+  }
+}
